@@ -1,0 +1,112 @@
+/* body {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+} */
+
+.container {
+  margin: 20px;
+}
+
+.control {
+  display: flex;
+}
+
+#numberCart-input {
+  width: 300px;
+  height: 34px;
+  margin-right: 10px;
+  padding: 6px 12px;
+  
+  font-size: 14px;
+  color: #555;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#numberCart-input:focus {
+    outline-color: #35aede;
+  }
+  
+.submit {
+  width: 150px;
+  color: #fff;
+  border-radius: 5px;
+  background-color: #5cb85c;
+  border: none;
+}
+
+.submit:hover {
+  background-color: #237839;
+}
+
+.cards {
+  display: flex;
+}
+
+.card {
+  width: 40px;
+  height: 25px;
+  margin: 0 5px 10px 0;
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: 1px solid #707070;
+  border-radius: 5px;
+}
+
+
+.disabled {
+  background-color: #000;
+  opacity: 0.9;
+}
+
+
+#visa {
+  background-image: url(545145c60c726b397f61.png);
+}
+
+#mir {
+  background-image: url(52bafb85549cd0f387e9.png);
+}
+
+#masterCard {
+  background-image: url(5ca1f088ecdd58e47981.png);
+}
+
+#jcb {
+  background-image: url(ef3040599497feebacda.png);
+}
+
+#discover {
+  background-image: url(dde5b0a44a37a5ef0adb.png);
+}
+
+#dinersClub {
+  background-image: url(80002dcc2a51726b73da.png);
+}
+
+#americanExpress {
+  background-image: url(23a3dfa76c9c691ff89c.png);
+}
+
+.disabled {
+  background-color: #000;
+  opacity: 0.5;
+}
+
+.valid {
+  outline-width: 5px;
+  outline-style: auto;
+  outline-color: #5cb85c;
+  outline-offset: 2px;
+}
+
+.invalid {
+  outline-width: 5px;
+  outline-style: auto;
+  outline-color: #ff0000;
+  outline-offset: 2px;
+}
+
